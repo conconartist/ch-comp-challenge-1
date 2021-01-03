@@ -1,0 +1,202 @@
+body, html {
+    height: 250%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5vh;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-container {
+    display: flex;
+}
+
+.admin-username {
+    color: #8b5d2e;
+    font-size: 2vh;
+    margin: 0;
+}
+
+.bi {
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.bi:hover {
+    fill: #b7796f;
+}
+
+.bi-scissors {
+
+}
+
+.card-body {
+    padding: 5%;
+    padding-top: 0;
+}
+
+.card-header {
+    position:relative;
+}
+
+.card-overlay {
+    color: white;
+    display: flex;
+    /* -webkit-text-stroke: 1px; */
+    justify-content: space-between;
+    position:absolute;
+    height: 100%;
+    margin-left: 1vh;
+    width: 100%;
+    top: 2vh;
+}
+
+.description-container {
+    background-color: #A99282;
+    font-size: 2vh;
+    margin-top: 3vh;
+    padding: 4%;
+}
+
+h1, h2, h3 {
+    font-family: 'Abril Fatface', serif;
+}
+
+h1 {
+    margin-bottom: 4vh;
+    margin-top: 5vh;
+}
+
+h2 {
+    font-size: 3vh;
+    margin-bottom: 0;
+}
+h3 {
+    font-size: 2vh;
+    margin-bottom: 0;
+}
+
+.icon-sewing {
+    height: 15vh;
+}
+
+.image-fabric {
+    height: 28vh;
+    width: 100%;
+}
+
+li {
+   margin-right: 4vh;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#logo-image {
+    height: 18vh;
+    padding-bottom: 2vh;
+}
+
+nav {
+    background-color: #F4F2F0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: -1%;
+    padding-right: 3%;
+    padding-top: 2%;
+}
+
+.fabric-card {
+    background-color: #D7D2CE;
+    box-shadow: 3px 3px 3px 0px #cbaf9d;
+}
+
+.fabric-card-container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0.7rem;
+    margin: 1vh;
+    margin-right: 4vh;
+}
+
+p {
+    margin: 0;
+}
+
+.purchase-info {
+    font-size: 2vh;
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 3vh;
+    padding-left: 2vh;
+}
+
+.yardage-container {
+    margin-right: 3vh;
+}
+
+.yardage-number {
+    font-size: 5vh;
+    font-weight: 500;;
+}
+
+.yardage-width {
+    font-size: 4vh;
+    color: #654321;
+}
+
+@media (max-width: 1000px) {
+    .fabric-card-container {
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-gap: 0.7rem;
+        margin: 1vh;
+        margin-right: 4vh;
+    }
+}
+
+@media (max-width: 800px) {
+    .fabric-card-container {
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-gap: 0.7rem;
+        margin: 1vh;
+        margin-right: 4vh;
+    }
+}
+
+@media (max-width: 640px) {
+    body {
+        width: 101%;
+    }
+    .fabric-card-container {
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 0.7rem;
+        margin: 1vh;
+        margin-right: 4vh;
+    }
+}
