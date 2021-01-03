@@ -32,6 +32,6 @@ Creative license was given in regards to responsive design, copy, color scheme, 
 
 # Responsiveness and Future Iterations
 
-![]https://media.giphy.com/media/3S8isjtzb9UfoesHTv/giphy.gif
+![](https://media.giphy.com/media/3S8isjtzb9UfoesHTv/giphy.gif)
 
 I would like to build upon this comp for functionality by creating classes to simplify the HTML and utilizing user input fields to make the application something a user can update.  Local storage and/or building out an API would be useful for the user to keep track of fabrics from one device to another and upon refresh.  
